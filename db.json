@@ -5,7 +5,7 @@
       "title": "Апельсин",
       "price": "50грн/кг",
       "sort": "Сацума",
-      "image": "assests/images/apelsin.jpeg",
+      "image": "assets/images/apelsin.jpeg",
       "configure": {
         "place": "Грузія",
         "date": "10.06.2023"
@@ -16,7 +16,7 @@
       "title": "Груша",
       "price": "10грн/кг",
       "sort": "Дюшес",
-      "image": "assests/images/grusha.jpeg",
+      "image": "assets/images/grusha.jpeg",
       "configure": {
         "place": "Україна",
         "date": "17.06.2023"
@@ -27,7 +27,7 @@
       "title": "Мандарин",
       "price": "80грн/кг",
       "sort": "Танджерина",
-      "image": "assests/images/mandarun.jpeg",
+      "image": "assets/images/mandarun.jpeg",
       "configure": {
         "place": "Грузія",
         "date": "12.06.2023"
@@ -38,7 +38,7 @@
       "title": "Персик",
       "price": "100грн/кг",
       "sort": "Павії",
-      "image": "assests/images/persuk.jpeg",
+      "image": "assets/images/persuk.jpeg",
       "configure": {
         "place": "Індія",
         "date": "18.06.2023"
@@ -49,7 +49,7 @@
       "title": "Полуниця",
       "price": "80грн/кг",
       "sort": "Румба",
-      "image": "assests/images/polunicya.jpeg",
+      "image": "assets/images/polunicya.jpeg",
       "configure": {
         "place": "Україна",
         "date": "19.06.2023"
@@ -60,7 +60,7 @@
       "title": "Виноград",
       "price": "150грн/кг",
       "sort": "Блатина",
-      "image": "assests/images/vynograd.jpeg",
+      "image": "assets/images/vynograd.jpeg",
       "configure": {
         "place": "Італія",
         "date": "9.06.2023"
@@ -71,23 +71,10 @@
       "title": "Яблуко",
       "price": "40грн/кг",
       "sort": "Антей",
-      "image": "assests/images/yabluko.jpeg",
+      "image": "assets/images/yabluko.jpeg",
       "configure": {
         "place": "Україна",
         "date": "11.06.2023"
-      }
-    },
-    {
-      "id": 8
-    },
-    {
-      "id": 9,
-      "title": "",
-      "price": "",
-      "sort": "",
-      "configure": {
-        "place": "",
-        "date": ""
       }
     }
   ]

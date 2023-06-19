@@ -36,10 +36,11 @@ export class ProductsComponent implements OnInit{
     }))
   }
 
-  openDialog(): void {
+  openDialog(product?: IProducts): void {
     let dialogConfig = new MatDialogConfig();
     dialogConfig.width = '500px';
     dialogConfig.disableClose = true;
+    dialogConfig.data = product; 
 
     const dialogRef = this.dialog.open(DialogBoxComponent, dialogConfig);
 
@@ -52,6 +53,12 @@ export class ProductsComponent implements OnInit{
 
   postData(data: IProducts){
       this.ProductsService.postProduct(data).subscribe((data) => this.products.push(data));
+  }
+
+  updateData(product: IProducts){
+    this.ProductsService.updateData(product).subscribe((data) => {
+      
+    });
   }
 
 

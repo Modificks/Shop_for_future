@@ -23,7 +23,7 @@ export class ProductsService{
     }
 
     postProduct(product: IProducts){
-        return this.http.post<IProducts>(this.url, product)
+        return this.http.post<IProducts>( this.url, product)
     }
 
     deleteProduct(id: number){
