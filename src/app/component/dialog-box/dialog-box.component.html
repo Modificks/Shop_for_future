@@ -1,0 +1,33 @@
+<form [formGroup]="myForm" (ngSubmit)="onSubmit()" class="example-form">
+    <mat-form-field class="example-full-width">
+      <mat-label>Назва</mat-label>
+      <input matInput formControlName="title" >
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Ціна</mat-label>
+        <input matInput formControlName="price" >
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Сорт</mat-label>
+        <input matInput formControlName="sort" >
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Країна виробник</mat-label>
+        <input matInput formControlName="place" >
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+        <mat-label>Дата виготовлення</mat-label>
+        <input matInput formControlName="date" >
+      </mat-form-field>
+
+
+    <button class="button" mat-flat-button style="margin-right: 2px;" color="primary" type="submit">Додати товар</button>
+    <button class="button" mat-flat-button color="primary" (click)="onNoClick()" type="button">Відмінити</button>
+  
+  </form>
+
+  

@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Апельсин",
+      "price": "50грн/кг",
+      "sort": "Сацума",
+      "image": "assests/images/apelsin.jpeg",
+      "configure": {
+        "place": "Грузія",
+        "date": "10.06.2023"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Груша",
+      "price": "10грн/кг",
+      "sort": "Дюшес",
+      "image": "assests/images/grusha.jpeg",
+      "configure": {
+        "place": "Україна",
+        "date": "17.06.2023"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Мандарин",
+      "price": "80грн/кг",
+      "sort": "Танджерина",
+      "image": "assests/images/mandarun.jpeg",
+      "configure": {
+        "place": "Грузія",
+        "date": "12.06.2023"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Персик",
+      "price": "100грн/кг",
+      "sort": "Павії",
+      "image": "assests/images/persuk.jpeg",
+      "configure": {
+        "place": "Індія",
+        "date": "18.06.2023"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Полуниця",
+      "price": "80грн/кг",
+      "sort": "Румба",
+      "image": "assests/images/polunicya.jpeg",
+      "configure": {
+        "place": "Україна",
+        "date": "19.06.2023"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Виноград",
+      "price": "150грн/кг",
+      "sort": "Блатина",
+      "image": "assests/images/vynograd.jpeg",
+      "configure": {
+        "place": "Італія",
+        "date": "9.06.2023"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Яблуко",
+      "price": "40грн/кг",
+      "sort": "Антей",
+      "image": "assests/images/yabluko.jpeg",
+      "configure": {
+        "place": "Україна",
+        "date": "11.06.2023"
+      }
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9,
+      "title": "",
+      "price": "",
+      "sort": "",
+      "configure": {
+        "place": "",
+        "date": ""
+      }
+    }
+  ]
+}
