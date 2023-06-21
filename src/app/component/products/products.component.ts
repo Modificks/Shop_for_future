@@ -13,7 +13,7 @@ import { DialogBoxComponent } from '../dialog-box/dialog-box.component';
 export class ProductsComponent implements OnInit{
   products: IProducts[];
   productsSubscription: Subscription;
-  canEdit: boolean = false;
+  canEdit: boolean = true;
   canView: boolean = false;
 
   constructor(private ProductsService: ProductsService, public dialog: MatDialog){}
