@@ -13,12 +13,13 @@ import { DialogBoxComponent } from '../dialog-box/dialog-box.component';
 export class ProductsComponent implements OnInit{
   products: IProducts[];
   productsSubscription: Subscription;
-  canEdit: boolean = true;
+  canEdit: boolean = false;
   canView: boolean = false;
 
   constructor(private ProductsService: ProductsService, public dialog: MatDialog){}
 
   ngOnInit(): void{
+    /*Some logik to change canEdit to true value */
     this.canEdit = true
 
     this.productsSubscription = this.ProductsService.getProducts().subscribe((data) => {
